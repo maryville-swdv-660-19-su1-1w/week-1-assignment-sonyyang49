@@ -1,3 +1,6 @@
+
+# By Sony Yang
+
 import random
 import tkinter
 
