@@ -20,7 +20,27 @@ If user clicks "Exit", the program will close.
 
 ## Using App from Repository
 
+
+### Open App from Repository
+After cloning the repository, you can run the program by navigating to the /dist folder, then open the "DiceApp" executable file.  
+
+### Run App via python command
+This is typically preferred if you want to make changes to the program for your own purpose.  
+
+After cloning the repository, you need to make sure that all dependencies are installed properly. You can do the following.  
+
+1. Open Command Prompt or Windows Powershell
+
+2. CD into the directory.  For example:
 ```python
-s = "Python syntax highlighting"
-print s
+cd "C:\Users\Sony\Github\DiceAppRepository"
+```
+
+3. Use pipenv to install all the dependencies in this environment.  
+```python
+pipenv install
+```
+4. Run the app, by calling the main.py file in the virtual environment.  
+```python
+pipenv run python .\main.py
 ```
