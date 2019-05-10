@@ -2,7 +2,7 @@
 Developed by:  Sony Yang
 
 ## Requirement:
-..* Compatible only on Windows PC.  
+Compatible only on Windows PC.  
 
 ## Executable File: DiceApp
 Using pyinstaller, I compiled a working app that works only on the Windows platform.  
@@ -19,3 +19,8 @@ If user clicks "Exit", the program will close.
 
 
 ## Using App from Repository
+
+```python
+s = "Python syntax highlighting"
+print s
+```
