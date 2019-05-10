@@ -28,7 +28,7 @@ This is typically preferred if you want to make changes to the program for your 
 
 After cloning the repository, you need to make sure that all dependencies are installed properly. You can do the following.  
 
-1. Open Command Prompt or Windows Powershell
+1. Open Command Prompt or Windows Powershell (Preferably as admin)
 
 2. CD into the directory.  For example:
 ```python
